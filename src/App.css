@@ -218,13 +218,13 @@
   border-radius: 8px;
 }
 .textbox {
-  position: fixed;
-  top: 92%;
-  margin-left: 16vw;
+  position: absolute;
+  top:80%;
+  margin-left: 5vw;
   border-radius: 15px;
 }
 .textbox input {
-  width: 300px;
+  width: 250px;
   padding: 12px;
   font-size: 14px;
   border: none;
@@ -240,7 +240,7 @@
   cursor: pointer;
   position: relative;
   top: 5px;
-  right: 40px;
+  right: 30px;
   background-color: #d2d3d3;
   border: none;
 }
@@ -344,6 +344,9 @@
   }
   .gpt {
     margin-top: 15vh;
+    font-size:14px;
+    position:relative;
+    right:10vw;
   }
   .error {
     margin-left: 20px;
