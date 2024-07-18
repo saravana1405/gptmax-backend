@@ -215,8 +215,8 @@
   border-radius: 8px;
 }
 .textbox {
-  position: fixed;
-  top: 62%;
+  position: absolute;
+  top: 42%;
   margin-left: 16vw;
   border-radius: 15px;
 }
