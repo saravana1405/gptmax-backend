@@ -216,8 +216,8 @@
 }
 .textbox {
   position: absolute;
-  top:1100%;
-  margin-left: 16vw;
+  top:110%;
+  margin-left: 5vw;
   border-radius: 15px;
 }
 .textbox input {
