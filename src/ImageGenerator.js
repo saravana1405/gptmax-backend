@@ -3,7 +3,7 @@ import defaultImg from "./assets/frontimg.jpg";
 import FadeLoader from "react-spinners/FadeLoader";
 import Swal from "sweetalert2";
 import { IoMdSend } from "react-icons/io";
-import { IoArrowBack, IoHome } from "react-icons/io5";
+import {  IoHome } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
 const ImageGenerator = () => {
   const [userInput, setUserInput] = useState("");

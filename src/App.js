@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import "./App.css";
 import Swal from "sweetalert2";
 import { FaPenNib, FaPlus, FaUser } from "react-icons/fa6";
@@ -11,16 +11,9 @@ import { Link } from "react-router-dom";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-import useClipboard from "react-use-clipboard";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // "Explain things like you would to a 10 year old learning how to code.";
-const systemMessage = {
-  role: "system",
-  content:
-    "Explain things like you're talking to a software professional with 2 years of experience.",
-};
-
 function App() {
   const ref = useRef(null);
   const [choices, setChoices] = useState([
@@ -37,10 +30,8 @@ function App() {
       choice: "what are the importance of AI and machine learning",
     },
   ]);
-  const [textToCopy, setTextToCopy] = useState();
   const [issue,setIssue] = useState(false)
   const [val, setVal] = useState("");
-  const [isTyping, setIsTyping] = useState(false);
   const [show, setshow] = useState(false);
   const [messages, setMessages] = useState([
     { message: "", sentTime: "just now", sender: "ChatGPT" },
@@ -75,7 +66,6 @@ function App() {
   };
   const handleSend = async () => {
     setIssue(true)
-    setIsTyping(false);
     setVal("");
   }
   const navi = useNavigate();
@@ -195,7 +185,7 @@ function App() {
           <IoClose id="wrong" onClick={() => setshow(!show)} />
           <div
             className="main-content"
-            onClick={() => setTextToCopy(transcript)}
+            // onClick={() => setTextToCopy(transcript)}
           >
             <FaUser /> <h4 id="h4"></h4>
             {transcript}
