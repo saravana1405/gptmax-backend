@@ -216,12 +216,12 @@
 }
 .textbox {
   position: absolute;
-  top:90%;
+  top:1100%;
   margin-left: 16vw;
   border-radius: 15px;
 }
 .textbox input {
-  width: 300px;
+  width: 250px;
   padding: 12px;
   font-size: 14px;
   border: none;
