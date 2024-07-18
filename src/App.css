@@ -322,9 +322,6 @@
   color: var(--blue);
 }
 @media screen and (max-width: 600px) {
-  body{
-    height:50%;
-  }
   .sidebar {
     visibility: hidden;
     position: absolute;
@@ -342,6 +339,9 @@
   }
   .gpt {
     margin-top: 15vh;
+    font-size:14px;
+    position:relative;
+    right:10vw;
   }
   .error {
     margin-left: 20px;
