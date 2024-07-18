@@ -323,7 +323,7 @@
 }
 @media screen and (max-width: 600px) {
   body{
-    height:80%;
+    height:50%;
   }
   .sidebar {
     visibility: hidden;
