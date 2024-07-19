@@ -408,7 +408,7 @@
     font-family: "Poppins";
   }
   .form {
-    overflow:visible; 
+    overflow-x: hidden;
     width: 350px;
     position: relative;
     top: 12vh;
