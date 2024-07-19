@@ -217,7 +217,7 @@
 }
 .textbox {
   position: absolute;
-  top:80%;
+  top:85%;
   margin-left: 5vw;
   border-radius: 15px;
 }
@@ -326,7 +326,6 @@
   .sidebar {
     visibility: hidden;
     position: absolute;
-    overflow: hidden;
     height: 0px;
     width: 0px;
   }
