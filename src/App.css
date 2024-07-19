@@ -326,6 +326,7 @@
   .sidebar {
     visibility: hidden;
     position: absolute;
+    overflow: hidden;
     height: 0px;
     width: 0px;
   }
