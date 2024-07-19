@@ -410,6 +410,7 @@
     font-family: "Poppins";
   }
   .form {
+    overflow:visible; 
     width: 350px;
     position: relative;
     top: 12vh;
