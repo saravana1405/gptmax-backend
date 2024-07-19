@@ -408,11 +408,13 @@
     font-family: "Poppins";
   }
   .form {
+    box-sizing: border-box;
+    overflow-y: hidden;
     overflow-x: hidden;
     width: 350px;
     position: relative;
     top: 12vh;
-    left: 20vw;
+    left: 10vw;
   }
   .bot1 {
     position: relative;
